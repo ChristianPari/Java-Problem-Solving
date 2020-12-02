@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class breaking_records {
 
     // Complete the breakingRecords function below.
     static int[] breakingRecords(int[] scores) {

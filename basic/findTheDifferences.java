@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Main {
-  public static void main(String args[]) {
+public class findTheDifferences {
+  public void solution() {
     /*
 
 Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
@@ -23,7 +23,7 @@ Compare two arrays and return a new array with any items only found in one of th
 
   }
 
-  public static List<Integer> differences(List<Integer> arr1, List<Integer> arr2)
+  private List<Integer> differences(List<Integer> arr1, List<Integer> arr2)
   {
 
     List<Integer> diffs = new ArrayList<>();
