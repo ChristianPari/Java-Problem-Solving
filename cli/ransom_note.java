@@ -38,6 +38,17 @@ public class ransom_note {
       }
     }
 
+    private static int getLetterIndex(String[] arr, String letter) {
+      int number = -1;
+      for (int count = 0; count < arr.length; count++) {
+        if (arr[count].equals(letter)) {
+          number = count;
+          break;
+        }
+      }
+      return number;
+    }
+
     private static String[] removeElement(String[] arr, int indexToRemove) {
       String[] newArr = new String[arr.length - 1];
       for (int count = 0, newIdx = 0; count < arr.length; count++) {
@@ -48,17 +59,6 @@ public class ransom_note {
         }
       }
       return newArr;
-    }
-
-    private static int getLetterIndex(String[] arr, String letter) {
-      int number = -1;
-      for (int count = 0; count < arr.length; count++) {
-        if (arr[count].equals(letter)) {
-          number = count;
-          break;
-        }
-      }
-      return number;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
