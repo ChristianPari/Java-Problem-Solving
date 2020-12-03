@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cf9446f-353d-4149-9359-f6070312fcbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7cf9446f-353d-4149-9359-f6070312fcbd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,9 +53,16 @@
       <recent name="C:\Users\Chris\Documents\github\Java\Java-Algorithms\Basic-Algorithms\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.find_longest_word">
+  <component name="RunManager" selected="Application.confirm_the_ending">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="confirm_the_ending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="confirm_the_ending" />
       <module name="Java-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.confirm_the_ending" />
         <item itemvalue="Application.find_longest_word" />
         <item itemvalue="Application.simpleRansom" />
         <item itemvalue="Application.ransom_note" />
