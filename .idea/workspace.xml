@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7cf9446f-353d-4149-9359-f6070312fcbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Algorithms.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Code-Alongs/BankingSystem" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,8 +63,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Chris\Documents\github\Java\Java-Algorithms\Basic-Algorithms\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.climbingTheLeaderboard">
+  <component name="RunManager" selected="Application.maximum_distance">
     <configuration name="climbingTheLeaderboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="climbingTheLeaderboard" />
       <module name="Java-Algorithms" />
@@ -85,9 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simpleRansom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleRansom" />
+    <configuration name="maximum_distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.maximum_distance" />
       <module name="Java-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.maximum_distance" />
         <item itemvalue="Application.climbingTheLeaderboard" />
         <item itemvalue="Application.smallestCommonMultiple" />
         <item itemvalue="Application.confirm_the_ending" />
         <item itemvalue="Application.find_longest_word" />
-        <item itemvalue="Application.simpleRansom" />
       </list>
     </recent_temporary>
   </component>
