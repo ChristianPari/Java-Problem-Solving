@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf9446f-353d-4149-9359-f6070312fcbd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intermediate/organizing_containers_of_balls.java" beforeDir="false" afterPath="$PROJECT_DIR$/intermediate/organizing_containers_of_balls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1khKeYbDRZH8AeEYDdUkPf9A3Fc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -52,12 +61,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Code-Alongs/BankingSystem" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Interview-Practice" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.space" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -67,34 +77,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.maximum_distance">
-    <configuration name="climbingTheLeaderboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="climbingTheLeaderboard" />
-      <module name="Java-Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="confirm_the_ending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="confirm_the_ending" />
-      <module name="Java-Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="find_longest_word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="find_longest_word" />
-      <module name="Java-Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="maximum_distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.maximum_distance" />
+  <component name="RunManager" selected="Application.organizing_containers_of_balls">
+    <configuration name="anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="three_alg_challenge2.anagrams" />
       <module name="Java-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="three_alg_challenge2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,20 +91,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="smallestCommonMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="smallestCommonMultiple" />
+    <configuration name="height_of_a_binary_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="three_alg_challenge.height_of_a_binary_tree" />
       <module name="Java-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="three_alg_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="organizing_containers_of_balls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.organizing_containers_of_balls" />
+      <module name="Java-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="priority_queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="three_alg_challenge2.priority_queue" />
+      <module name="Java-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="three_alg_challenge2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sparse_arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="three_alg_challenge.sparse_arrays" />
+      <module name="Java-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="three_alg_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.maximum_distance" />
-        <item itemvalue="Application.climbingTheLeaderboard" />
-        <item itemvalue="Application.smallestCommonMultiple" />
-        <item itemvalue="Application.confirm_the_ending" />
-        <item itemvalue="Application.find_longest_word" />
+        <item itemvalue="Application.organizing_containers_of_balls" />
+        <item itemvalue="Application.priority_queue" />
+        <item itemvalue="Application.anagrams" />
+        <item itemvalue="Application.sparse_arrays" />
+        <item itemvalue="Application.height_of_a_binary_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +185,18 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="h1" language="JAVA" />
+        <watch expression="h2" />
+        <watch expression="h3" />
+        <watch expression="h1Sum" />
+        <watch expression="h2Sum" />
+        <watch expression="h3Sum" />
+        <watch expression="smallestStack" />
+        <watch expression="h1Stack" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

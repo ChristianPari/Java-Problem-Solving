@@ -26,38 +26,42 @@ public class organizing_containers_of_balls {
 
   // Complete the organizingContainers function below.
   static String organizingContainers(List<List<Integer>> container) {
-    int ball_types = container.get(0).size();
-    List<Integer> capacities = new ArrayList<>();
-    HashMap<Integer, Integer> ball_totals = new HashMap<>();
+    int ball_types = container.get(0).size(); // how many types of balls
+    List<Integer> capacities = new ArrayList<>(); // storing containers by index with capacity
+    HashMap<Integer, Integer> ball_totals = new HashMap<>(); // key: ball type | value: ball count totals
 
-    for (List<Integer> content : container) {
-      int counter = 0;
-      int capacity = 0;
-      while (counter < ball_types) {
-        int ball_type = counter;
-        int num_of_balls = content.get(counter++);
-        if (!ball_totals.containsKey(ball_type)) {
+    for (List<Integer> content : container) { // iterating through list of containers
+      int counter = 0; // referring to ball type / a counter to ball type
+      int capacity = 0; // will be used to update the "capacities" list
+      while (counter < ball_types) { // goes through each ball type per container
+        int ball_type = counter; // renaming for use below
+        int num_of_balls = content.get(counter++); // gets the amount of balls in the current index
+        if (!ball_totals.containsKey(ball_type)) { // adds to the HashMap if it doesn't exist
           ball_totals.put(ball_type, num_of_balls);
-        } else {
+        } else { // otherwise update the HashMap with the new total for a ball type
           int new_total = ball_totals.get(ball_type) + num_of_balls;
           ball_totals.replace(ball_type, new_total);
         }
-        capacity += num_of_balls;
+        capacity += num_of_balls; // at the end of each ball type check, increase total capacity for this container
       }
-      capacities.add(capacity);
+      capacities.add(capacity); // add the capacity for each container to the capacities list which can be referred to by index
     }
 
-    boolean possible = true;
-    for (Map.Entry<Integer, Integer> ball : ball_totals.entrySet()) {
-      int needed_capacity = (int) ((Map.Entry) ball).getValue();
-      if (!capacities.contains(needed_capacity)) {
+    boolean possible = true; // default to true / pass till fail
+    for (Map.Entry<Integer, Integer> ball : ball_totals.entrySet()) { // iterating through the HashMap using each Key:Value pair
+      int needed_capacity = (int) ((Map.Entry) ball).getValue(); // getting the total for the current ball type
+                                                                 // this capcity must be found for this test case to be found true
+                                                                 // otherwise not possible
+      if (!capacities.contains(needed_capacity)) { // doesn't contain the needed capacity then end the loop and change possible to false
         possible = false;
         break;
       }
+      // removing the already found capacity since it can't be reused for another ball type
       int index = capacities.indexOf(needed_capacity);
       capacities.remove(index);
     }
 
+    // return whether possible or impossible
     String response = possible ? "Possible" : "Impossible";
     return response;
   }
