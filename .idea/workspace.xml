@@ -25,7 +25,6 @@
     <list default="true" id="7cf9446f-353d-4149-9359-f6070312fcbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intermediate/organizing_containers_of_balls.java" beforeDir="false" afterPath="$PROJECT_DIR$/intermediate/organizing_containers_of_balls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +76,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.organizing_containers_of_balls">
-    <configuration name="anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three_alg_challenge2.anagrams" />
+  <component name="RunManager" selected="Application.abbreviation">
+    <configuration name="abbreviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="three_alg_challenge3.abbreviation" />
       <module name="Java-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="three_alg_challenge2.*" />
+          <option name="PATTERN" value="three_alg_challenge3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="height_of_a_binary_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three_alg_challenge.height_of_a_binary_tree" />
+    <configuration name="anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="three_alg_challenge2.anagrams" />
       <module name="Java-Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="three_alg_challenge.*" />
+          <option name="PATTERN" value="three_alg_challenge2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.abbreviation" />
         <item itemvalue="Application.organizing_containers_of_balls" />
         <item itemvalue="Application.priority_queue" />
         <item itemvalue="Application.anagrams" />
         <item itemvalue="Application.sparse_arrays" />
-        <item itemvalue="Application.height_of_a_binary_tree" />
       </list>
     </recent_temporary>
   </component>

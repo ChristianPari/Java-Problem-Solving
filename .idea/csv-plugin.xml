@@ -73,6 +73,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\three_alg_challenge3\abbreviation.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\three_alg_challenge3\merge_two_sorted_linked_lists.java">
           <value>
             <Attribute>
