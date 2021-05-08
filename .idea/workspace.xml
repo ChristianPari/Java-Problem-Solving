@@ -25,6 +25,7 @@
     <list default="true" id="7cf9446f-353d-4149-9359-f6070312fcbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Algorithms.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.space" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,26 +77,27 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.abbreviation">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.Solution" />
+      <module name="Java-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution1" />
+      <module name="Java-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="abbreviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="three_alg_challenge3.abbreviation" />
       <module name="Java-Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="three_alg_challenge3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three_alg_challenge2.anagrams" />
-      <module name="Java-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="three_alg_challenge2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sparse_arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three_alg_challenge.sparse_arrays" />
-      <module name="Java-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="three_alg_challenge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.abbreviation" />
         <item itemvalue="Application.organizing_containers_of_balls" />
         <item itemvalue="Application.priority_queue" />
-        <item itemvalue="Application.anagrams" />
-        <item itemvalue="Application.sparse_arrays" />
       </list>
     </recent_temporary>
   </component>
