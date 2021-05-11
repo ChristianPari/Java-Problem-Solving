@@ -32,28 +32,32 @@ public class recursive_digit_sum {
     // 1 + 2 = 3
     // 3 < 10
     // returns 3
-    String newN = "";
-
-    if (k > 1) { // concat string to needed length
-      int count = 1;
-      while (count <= k) {
-        newN = newN.concat(n);
-        count++;
-      }
-    } else {
-      newN = n;
+//    String newN = "";
+//
+//    if (k > 1) { // concat string to needed length
+//      int count = 1;
+//      while (count <= k) {
+//        newN = newN.concat(n);
+//        count++;
+//      }
+//    } else {
+//      newN = n;
+//    }
+    if (n.length() == 1) { // desired answer
+      return Character.getNumericValue(n.charAt(0));
     }
 
-    int sum = 0; // becomes sum of current (n)
-    for (int index = 0; index < newN.length(); index++) {
-      int current_num = Integer.parseInt(String.valueOf(newN.charAt(index)));
+    char[] n_arr = n.toCharArray();
+
+    long sum = 0; // becomes sum of current (n)
+    for (char c : n_arr) {
+      int current_num = Integer.parseInt(String.valueOf(c));
       sum += current_num;
     }
 
-    if (sum < 10) { // desired answer
-      return sum;
-    }
-    return superDigit(Integer.toString(sum), 1);
+    sum *= k;
+
+    return superDigit(Long.toString(sum), 1);
   }
 }
 
