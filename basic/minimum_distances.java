@@ -16,21 +16,21 @@ public class minimum_distances {
   public static int minimumDistances(List<Integer> a) {
     // Write your code here
     boolean arePairs = false;
-    List<Integer> pairs = new ArrayList<>();
+    long min = a.size();
 
     for (int index = a.size() - 1; index >= 0; index--) {
       int current = a.get(index);
       int searched_index = a.indexOf(current);
+
       if (index != searched_index) {
-        int distance = index - searched_index;
-        pairs.add(distance);
+        long distance = index - searched_index;
+        min = Math.min(min, distance);
         arePairs = true;
       }
     }
 
     if (arePairs) {
-      Collections.sort(pairs);
-      return pairs.get(0);
+      return (int) min;
     }
 
     return -1;
