@@ -1,3 +1,5 @@
+package basic;
+
 import java.util.HashMap;
 
 public class simpleRansom {
@@ -9,7 +11,7 @@ public class simpleRansom {
     HashMap<String, Integer> letterCount = new HashMap<>();
     String[] sourceArray = source.split("");
 
-    for (var letter : sourceArray) {
+    for (String letter : sourceArray) {
       if (letter.equals(" ")) {
         continue;
       }
@@ -23,7 +25,7 @@ public class simpleRansom {
     }
 
     String[] messageArray = message.split("");
-    for (var letter : messageArray) {
+    for (String letter : messageArray) {
       if (!letterCount.containsKey(letter)) return false;
 
       if (letterCount.get(letter) == 0) return false;
