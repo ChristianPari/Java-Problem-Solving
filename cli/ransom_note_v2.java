@@ -1,3 +1,5 @@
+package cli;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -22,7 +24,7 @@ public class ransom_note_v2 {
     // all pass through, return "Yes"
     // if this indexOf(Obejct o) ever returns -1 then the letter isnt within the vector and we return "No"
    HashMap<String, Integer> hashedMag = new HashMap<>();
-   for (var letter : magazine) {
+   for (String letter : magazine) {
      if (hashedMag.containsKey(letter)) {
        hashedMag.replace(letter, hashedMag.get(letter) + 1);
        continue;
@@ -31,7 +33,7 @@ public class ransom_note_v2 {
      hashedMag.put(letter, 1);
    }
 
-   for (var letter : note) {
+   for (String letter : note) {
      if (!hashedMag.containsKey(letter)) {
        System.out.println("No");
        return;
