@@ -18,13 +18,13 @@ class Result3 {
 
   public static List<Integer> absolutePermutation(int n, int k) {
 // PERMUTATION IS ONLY POSSIBLE WHEN "k" GOES INTO "n" EVENLY AS A WHOLE NUMBER ... give examples
+    List<Integer> answer = new LinkedList<>();
 
       /*
         FIRST CHECK:
           if "k" is 0 then a plain List filled w/ 1 to "n" is the only result possible bc no permutations will occur
       */
     if (k == 0) {
-      List<Integer> answer = new ArrayList<>();
       for (int num = 1; num <= n; num++) {
         answer.add(num);
       }
@@ -37,10 +37,8 @@ class Result3 {
           also if the value is a whole number but not divisible by 2 then also isnt able to be a permutation
       */
     double nDivK = (double) n / k;
-    boolean isWholeNumber = (nDivK % 1 == 0);
     boolean isEven = (nDivK % 2 == 0);
-    if (!isWholeNumber || !isEven) {
-      List<Integer> answer = new ArrayList<>();
+    if (!isEven) {
       answer.add(-1);
       return answer;
     }
@@ -51,7 +49,6 @@ class Result3 {
           a boolean that will tell the program when to increase or decrease the value of counter by keeping track of how many elements have been added to the List according to "k"
       */
 
-    List<Integer> answer = new LinkedList<>();
     int counter = 1;
     boolean adding = true;
     for (int num = 1; num <= n; num++) {
