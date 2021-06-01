@@ -1,7 +1,5 @@
 package mob_code_session_challenges;
 
-import jdk.internal.org.jline.utils.DiffHelper;
-
 import java.io.*;
 import java.util.*;
 import java.text.*;
