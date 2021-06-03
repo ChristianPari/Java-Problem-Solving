@@ -11,29 +11,47 @@ public class count_and_say {
     int count = 1;
 
     while (count < n) {
-      List<String> say = new ArrayList<>();
-      for (int index = 0; index < answer.length(); index++) {
-        int currentChar = Character.getNumericValue(answer.charAt(index));
+      // TAKES LONGER
+//      List<String> say = new ArrayList<>();
+//      for (int index = 0; index < answer.length(); index++) {
+//        int currentChar = Character.getNumericValue(answer.charAt(index));
+//
+//        if (index == 0) {
+//          say.add("1" + currentChar);
+//
+//        } else {
+//          if (currentChar == Character.getNumericValue(answer.charAt(index - 1))) {
+//            int freqs = Character.getNumericValue(say.get(say.size() - 1).charAt(0)) + 1;
+//            int num = Character.getNumericValue(say.get(say.size() - 1).charAt(1));
+//
+//            String combined = Integer.toString(freqs) + Integer.toString(num);
+//
+//            say.remove(say.size() - 1);
+//            say.add(combined);
+//          } else {
+//            say.add("1" + currentChar);
+//          }
+//        }
+//      }
+//
+//      answer = String.join("", say);
 
-        if (index == 0) {
-          say.add("1" + currentChar);
+      // FASTER CODE
+      String say = "";
+      int freqs = 0;
 
+      char currentNumber = answer.charAt(0);
+      for (char currentChar : answer.toCharArray()) {
+        if (currentChar == currentNumber) {
+          freqs++;
         } else {
-          if (currentChar == Character.getNumericValue(answer.charAt(index - 1))) {
-            int freqs = Character.getNumericValue(say.get(say.size() - 1).charAt(0)) + 1;
-            int num = Character.getNumericValue(say.get(say.size() - 1).charAt(1));
-
-            String combined = Integer.toString(freqs) + Integer.toString(num);
-
-            say.remove(say.size() - 1);
-            say.add(combined);
-          } else {
-            say.add("1" + currentChar);
-          }
+          say = say.concat(String.valueOf(freqs) + String.valueOf(currentNumber));
+          currentNumber = currentChar;
+          freqs = 1;
         }
       }
 
-      answer = String.join("", say);
+      answer = say.concat(String.valueOf(freqs) + String.valueOf(currentNumber));
       count++;
     }
 
