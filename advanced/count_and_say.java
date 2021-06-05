@@ -21,7 +21,7 @@ class Result4 {
    */
 
   public static List<Long> bonetrousle(long n, long k, int b) {
-    // if passes this List will be returned with valid data
+// if passes this List will be returned with valid data
     List<Long> answer = new LinkedList<>();
 
     // if failed somewhere this will be returned
@@ -52,15 +52,15 @@ class Result4 {
     // REFERNCE: answer - List, listSum - sum of current List
     int alteringIndex = b - 1;
     long maxAvailableNum = k;
-    long lowestAvailableNum = k - b + 1;
+    long lowestAvailableNum = k - (k - b + 1);
 
-    while (listSum <= n) {
+    while (listSum <= n && alteringIndex >= 0) {
       if (listSum == n)
         return answer;
 
       long differenceNeeded = n - listSum;
       long toBeAdded = answer.get(alteringIndex) + differenceNeeded;
-      if (toBeAdded <= k) {
+      if (toBeAdded <= maxAvailableNum && toBeAdded >= lowestAvailableNum) {
         answer.set(alteringIndex, toBeAdded);
         return answer;
       }
@@ -75,17 +75,6 @@ class Result4 {
         lowestAvailableNum--;
         alteringIndex--;
 
-      } else {
-        long lowerNeededNum = maxAvailableNum + totalDiff;
-        if (lowerNeededNum >= lowestAvailableNum) {
-          listSum -= answer.get(alteringIndex);
-          listSum += lowestAvailableNum;
-          answer.set(alteringIndex, lowestAvailableNum);
-          lowestAvailableNum++;
-          alteringIndex--;
-        } else {
-          return failed;
-        }
       }
     }
 
