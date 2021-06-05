@@ -21,7 +21,7 @@ class Result4 {
    */
 
   public static List<Long> bonetrousle(long n, long k, int b) {
-// if passes this List will be returned with valid data
+    // if passes this List will be returned with valid data
     List<Long> answer = new LinkedList<>();
 
     // if failed somewhere this will be returned
@@ -49,7 +49,7 @@ class Result4 {
       return failed;
     }
 
-    // REFERNCE: answer - List, listSum - sum of current List
+    // REFERENCE: answer - List, listSum - sum of current List
     int alteringIndex = b - 1;
     long maxAvailableNum = k;
     long lowestAvailableNum = k - (k - b + 1);
