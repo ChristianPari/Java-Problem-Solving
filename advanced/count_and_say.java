@@ -2,6 +2,7 @@ package advanced;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.IntStream;
@@ -22,59 +23,40 @@ class Result4 {
 
   public static List<Long> bonetrousle(long n, long k, int b) {
     // if passes this List will be returned with valid data
-    List<Long> answer = new LinkedList<>();
+    List<Long> answer = new ArrayList<>();
 
     // if failed somewhere this will be returned
-    List<Long> failed = new ArrayList<>();
-    failed.add((long) -1);
-
-    if (n < b) {
-      return failed;
-    }
+    List<Long> failed = new ArrayList<>(Arrays.asList((long) -1));
 
     // needed for logic as well as more checks for failure
-    int listSum = 0;
-    for (int num = 1; num <= b; num++) {
-      answer.add((long) num);
+    long listSum = 0;
+    for (long num = 1; num <= b; num++) {
+      answer.add(num);
       listSum += num;
     }
 
     if (listSum > n) {
-      return failed;
-
-    } else if (listSum == n) {
-      return answer;
-
-    } else if (k == b) {
       return failed;
     }
 
     // REFERENCE: answer - List, listSum - sum of current List
     int alteringIndex = b - 1;
     long maxAvailableNum = k;
-    long lowestAvailableNum = k - (k - b + 1);
 
-    while (listSum <= n && alteringIndex >= 0) {
-      if (listSum == n)
-        return answer;
-
+    while (alteringIndex >= 0) {
       long differenceNeeded = n - listSum;
       long toBeAdded = answer.get(alteringIndex) + differenceNeeded;
-      if (toBeAdded <= maxAvailableNum && toBeAdded >= lowestAvailableNum) {
+      if (toBeAdded <= maxAvailableNum) {
         answer.set(alteringIndex, toBeAdded);
         return answer;
       }
 
-      long diffOfNums = maxAvailableNum - answer.get(alteringIndex);
-      long totalDiff = differenceNeeded - diffOfNums;
-      if (totalDiff >= 0) {
-        listSum -= answer.get(alteringIndex);
-        listSum += maxAvailableNum;
-        answer.set(alteringIndex, maxAvailableNum);
-        maxAvailableNum--;
-        lowestAvailableNum--;
-        alteringIndex--;
+      listSum -= answer.get(alteringIndex);
+      listSum += maxAvailableNum;
+      answer.set(alteringIndex--, maxAvailableNum--);
 
+      if (listSum == n) {
+        return answer;
       }
     }
 
