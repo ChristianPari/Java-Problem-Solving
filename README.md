@@ -2,4 +2,4 @@
 
 ## [Java Interview Prep Challenges](https://github.com/ChristianPari/Java-Interview-Prep)
 
-##### [Back to Algorithms Directory](https://github.com/ChristianPari/Algorithms-Directory)
+##### [Back to Problem Solving Directory](https://github.com/ChristianPari/Problem-Solving-Directory)
