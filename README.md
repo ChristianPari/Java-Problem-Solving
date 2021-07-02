@@ -1,4 +1,4 @@
-# Java Algorithms
+# Java Problem Solving
 
 ## [Java Interview Prep Challenges](https://github.com/ChristianPari/Java-Interview-Prep)
 
