@@ -10,15 +10,12 @@ public class stock_maximize {
     // insert an array of stock prices for x amount of days
     // days = 5 -> ex.. [1, 3, 5, 2, 4]
     // knowing the prices of the days to come, i return the largest possible profit
-    System.out.println(stockmax(new ArrayList<>(Arrays.asList(1,3,5,2,4))));
+    System.out.println(stockmax(new ArrayList<>(Arrays.asList(1, 3, 5, 2, 4))));
   }
 
 
   public static long stockmax(List<Integer> prices) {
-    return findGain(prices);
-  }
 
-  private static long findGain(List<Integer> prices) {
     if (prices.size() < 2) {
       return 0;
     }
@@ -40,6 +37,7 @@ public class stock_maximize {
     long total_gain = total_profit - total_spent;
     prices = new ArrayList<>(prices.subList(price_index + 1, prices.size()));
 
-    return total_gain + findGain(prices);
+    return total_gain + stockmax(prices);
   }
+
 }
