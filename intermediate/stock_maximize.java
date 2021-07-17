@@ -20,10 +20,7 @@ public class stock_maximize {
       return 0;
     }
 
-    List<Integer> sorted = new ArrayList<>(prices);
-    sorted.sort(Collections.reverseOrder());
-
-    int highest_price = sorted.get(0);
+    int highest_price = Collections.max(prices);
     int price_index = prices.indexOf(highest_price);
 
     long total_profit = (long) (price_index) * highest_price;
