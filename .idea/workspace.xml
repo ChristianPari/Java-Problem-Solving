@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf9446f-353d-4149-9359-f6070312fcbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intermediate/mergeTwoSortedLinkedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java-Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Algorithms.iml" afterDir="false" />
     </list>
@@ -50,6 +50,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tests.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1khKeYbDRZH8AeEYDdUkPf9A3Fc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -67,7 +70,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -77,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.mergeTwoSortedLinkedLists">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intermediate.Solution" />
       <module name="Java-Algorithms" />
@@ -85,28 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution1" />
+    <configuration name="absolute_permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advanced.absolute_permutation" />
       <module name="Java-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="abbreviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three_alg_challenge3.abbreviation" />
+    <configuration name="mergeTwoSortedLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.mergeTwoSortedLinkedLists" />
       <module name="Java-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="three_alg_challenge3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="organizing_containers_of_balls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.organizing_containers_of_balls" />
+    <configuration name="stock_maximize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.stock_maximize" />
       <module name="Java-Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -118,26 +115,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="priority_queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="three_alg_challenge2.priority_queue" />
+    <configuration name="tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests" />
       <module name="Java-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="three_alg_challenge2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergeTwoSortedLinkedLists" />
+        <item itemvalue="Application.stock_maximize" />
+        <item itemvalue="Application.tests" />
+        <item itemvalue="Application.absolute_permutation" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.abbreviation" />
-        <item itemvalue="Application.organizing_containers_of_balls" />
-        <item itemvalue="Application.priority_queue" />
       </list>
     </recent_temporary>
   </component>
