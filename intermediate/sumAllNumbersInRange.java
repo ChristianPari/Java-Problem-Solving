@@ -1,3 +1,5 @@
+package intermediate;
+
 import java.util.Arrays;
 
 public class sumAllNumbersInRange {
